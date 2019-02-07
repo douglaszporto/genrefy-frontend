@@ -1,0 +1,28 @@
+.home-text{
+    color: #fff;
+    font-size: 18px;
+    padding: 50px 20px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.btn-start{
+   color: #000;
+   background-color: #37ef22;
+   height: 50px;
+   width: 300px;
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 50px;
+   display: block; 
+   border-radius: 25px;
+   margin: 0 auto 50px;
+   font-family: 'Rammetto One';
+}
+
+
+@media only screen and (max-width: 800px) {
+    #box {
+        width: 90%;
+    }
+}

@@ -1,0 +1,60 @@
+#box {
+    min-height: 600px;
+    height: 90%;
+}
+
+#btn-section {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+}
+
+#btn-back{
+    color: #000;
+    background-color: #37ef22;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+    border: 0px;
+    font-family: 'Rammetto One';
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#retry {
+    color: #fff;
+    border: 3px solid  #37ef22;
+    background-color: #333;
+    box-sizing: border-box;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 44px;
+    display: block; 
+    border-radius: 25px;
+    margin: 0 auto;
+    font-family: 'Rammetto One';
+    cursor: pointer;
+}
+
+.message{
+    color: #fff;
+    text-align: center;
+    font-family: 'Rammetto One';
+    font-size: 14px;
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+#error-message {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}

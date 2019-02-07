@@ -1,0 +1,68 @@
+#artists{
+    position: absolute;
+    top: 200px;
+    bottom: 120px;
+    width: 100%;
+    overflow: auto;
+}
+
+.artists-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.artists-list li{
+    flex: 1 1 47.5%;
+    width: 47.5%;
+    max-width: 47.5%;
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Rammetto One';
+    font-size: 20px;
+    color: #37ef22;
+    text-transform: capitalize;
+    cursor: pointer;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.artists-list li:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+.artists-list li:nth-child(odd) {
+    margin-right: 5%
+}
+
+.artist-photo{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.artist-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}

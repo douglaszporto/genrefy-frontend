@@ -1,0 +1,18 @@
+#genres{
+    position: absolute;
+    top: 200px;
+    bottom: 120px;
+    width: 100%;
+    overflow: auto;
+}
+
+.genre-list li {
+    line-height: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Rammetto One';
+    font-size: 20px;
+    color: #37ef22;
+    text-transform: capitalize;
+    cursor: pointer;
+}
